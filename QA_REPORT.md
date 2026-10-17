@@ -17,9 +17,9 @@
 
 See [SECURITY.md](SECURITY.md). Validation, parameterized queries, rate limits, helmet headers, body size limit and `textContent` rendering are covered by tests or code review.
 
-## 3. Accessibility (manual, fill in after checking)
+## 3. Accessibility 
 
-How to check: Chrome DevTools → **Lighthouse** → Accessibility, and a keyboard-only run (Tab, Enter, Esc).
+
 
 | Check | Result |
 |---|---|
@@ -29,9 +29,9 @@ How to check: Chrome DevTools → **Lighthouse** → Accessibility, and a keyboa
 | Visible focus outline on all controls | Yes |
 | Errors are announced (`role="alert"`) | Yes |
 
-## 4. Performance (manual, fill in after checking)
+## 4. Performance 
 
-Run Lighthouse on the **live link** in an Incognito window, once for Mobile and once for Desktop.
+
 
 | Metric | Mobile | Desktop |
 |---|---|---|
@@ -40,6 +40,7 @@ Run Lighthouse on the **live link** in an Incognito window, once for Mobile and 
 | SEO score | 100 | 100 |
 
 Measured with PageSpeed Insights on the live link (Oct 17, 2026). The app runs on Render's free plan, which sleeps when idle, so the first request can be slow. This probably lowered the desktop performance score.
+
 Already done for speed: gzip compression, 1 hour caching for static files in production, no framework or large libraries, no images.
 
 ## 5. Mobile experience
