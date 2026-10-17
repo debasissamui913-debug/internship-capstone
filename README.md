@@ -2,9 +2,9 @@
 
 A full-stack internship portal I built step by step during the EdVyro Full-Stack Development Internship. Students can browse and search internships, then send an application. The frontend and the API run together in one Node.js app.
 
-- **Live demo:** https://YOUR-APP.onrender.com
+- **Live demo:** https://internship-capstone.onrender.com
 - **Walkthrough video:** PASTE-YOUR-VIDEO-LINK-HERE
-- **Health check:** https://YOUR-APP.onrender.com/health
+- **Health check:** https://internship-capstone.onrender.com/health
 
 ## What I built in each task
 
